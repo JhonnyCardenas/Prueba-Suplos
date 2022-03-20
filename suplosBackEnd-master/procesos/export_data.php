@@ -28,12 +28,12 @@
 $objPHPExcel = new PHPExcel();
 // Establecer propiedades
 $objPHPExcel->getProperties()
-->setCreator("Telefonica")
-->setLastModifiedBy($_SESSION['usu_nombre_completo'])
-->setTitle("Reporte control turno")
-->setSubject("Reporte control turno")
-->setDescription("Reporte control turno")
-->setKeywords("Reporte control turno")
+->setCreator("Jhonny")
+->setLastModifiedBy('Jhonny Cardenas')
+->setTitle("Reporte bienes")
+->setSubject("Reporte bienes")
+->setDescription("Reporte bienes")
+->setKeywords("Reporte bienes")
 ->setCategory("Reporte");
 
 //Estilos para todo el libro de excel
